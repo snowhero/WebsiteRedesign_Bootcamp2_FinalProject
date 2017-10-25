@@ -1,0 +1,181 @@
+
+.top-spacer{
+  height: 7px;
+}
+
+.DDD{
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: blue;
+  font-size: 14px;
+  position: relative;
+  top: 9px;
+}
+
+@media screen and (max-width: 412px){
+  .DDD{
+    clear: both;
+    margin-left: 0px;
+    top: 2px;
+  }
+
+  .logo{
+    margin-bottom: 0px;
+  }
+}
+
+.search{
+  padding-bottom: 3px;
+}
+
+.nav-back{
+  background: rgba(0, 0, 0, .15);
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+.navbar-toggle{
+  border-color: white;
+}
+
+.logo{
+  height: 25px;
+  width: 180px;
+  margin-bottom: 5px;
+}
+
+.hero{
+  background: blue;
+  height: 400px;
+}
+
+.monument{
+  height: 100%;
+  width: 100%;
+}
+
+.top-sub{
+  background: red;
+  height: 133.3333px;
+  width: 100%;
+}
+
+.campus{
+  height: 100%;
+  width: 100%;
+}
+
+.mid-sub{
+  background: green;
+  height: 133.3333px;
+  width: 100%;
+}
+
+.football{
+  height: 100%;
+  width: 100%;
+}
+
+.bot-sub{
+  background: yellow;
+  height: 133.3333px;
+  width: 100%;
+}
+
+.education{
+  height: 100%;
+  width: 100%;
+}
+
+.nav-elements{
+  width: 100%;
+  height: 55px;
+  font-size: 13px;
+  text-align: center;
+  background: -webkit-linear-gradient( white, rgba(0, 0, 0, 0.15));
+}
+
+.tabs{
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 18px;
+}
+
+.box-1{
+  height: 330px;
+  width: 100%;
+  background: green;
+}
+
+.box-sp1{
+  height: 330px;
+  width: 70%;
+  background: red;
+}
+
+.box-sp2{
+  height: 330px;
+  width: 30%;
+  background: yellow;
+}
+
+.box-1im{
+  height: 300px;
+  width: 100%;
+  background: orange;
+}
+
+.box-2im{
+  height: 300px;
+  width: 100%;
+  background: brown;
+}
+
+.box-3im{
+  height: 300px;
+  width: 100%;
+  background: purple;
+}
+
+.box-1ft{
+  height: 150px;
+  width: 66.6667%;
+  background: gray;
+}
+
+.box-2ft{
+  height: 150px;
+  width: 33.3333%;
+  background: black;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.no-margin{
+  margin: 0px;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.clear-right{
+  clear: right;
+}
+
+.clear-left{
+  clear: left;
+}
+
+.clear-both{
+  clear: both;
+}
