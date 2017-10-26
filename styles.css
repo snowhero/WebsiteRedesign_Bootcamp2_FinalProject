@@ -122,28 +122,108 @@
   background: yellow;
 }
 
-.box-1im{
+.box-im{
   height: 300px;
   width: 100%;
-  background: orange;
 }
 
-.box-2im{
-  height: 300px;
-  width: 100%;
-  background: brown;
+.pad1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
-.box-3im{
-  height: 300px;
+.pad2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pad3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.img-back{
+  background: rgba(0, 0, 0, .25);
+}
+
+.im-header{
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background: -webkit-linear-gradient(left, #4682B4, #0D4F8B);
+}
+
+.im-align{
+  position: relative;
+  top: 4px;
+}
+
+.aca-im{
+  height: 180px;
   width: 100%;
-  background: purple;
+  background-image: url('http://blog.blackboard.com/wp-content/uploads/iStock_000012777556Medium.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+.stu-im{
+  height: 180px;
+  width: 100%;
+  background-image: url('http://www.lonestar.edu/departments/webservices/studentsOnLawn.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+.alu-im{
+  height: 180px;
+  width: 100%;
+  background-image: url('http://www.bc.edu/alumni/get_involved/careers/_jcr_content/content/textimage/image.img.jpg/1373562821575.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+.im-header-text{
+  text-align: center;
+  color: gray;
+  padding-top: 8px;
+}
+
+.im-text{
+  padding-left: 5px;
+  color: gray;
+  position: relative;
+  bottom: 3px;
+}
+
+.im-link{
+  padding-left: 5px;
+  text-decoration: none;
+  position: relative;
+  bottom: 7px;
+}
+
+.text-section{
+  height: 90px;
+  width: 100%;
+  background: white;
+  position: relative;
+  bottom: 20px;
 }
 
 .box-1ft{
   height: 150px;
   width: 66.6667%;
-  background: gray;
+  background: white;
 }
 
 .box-2ft{
@@ -151,6 +231,10 @@
   width: 33.3333%;
   background: black;
 }
+
+
+
+
 
 .left{
   float: left;
